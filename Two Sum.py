@@ -14,5 +14,5 @@ for i in range(len(li)):
         else:
             b =li[i]+li[j]
             if b==target:
-                print(f"[{j+1},{i+1}]")
+                print(f"[{j},{i}]")
             
