@@ -1,5 +1,6 @@
 def plaindrom(number):
-    # number=self.number
+    if number<0:
+        return False
     numbers=[int(digit) for digit in str(number)]  # Split and store in a list
     # print(numbers)
     a= numbers
